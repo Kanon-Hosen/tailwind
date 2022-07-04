@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Taiwind portfoilo</title>
+</head>
+<body class="font-poppins"> 
+    <div class="h-screen lg:h-screen bg-gradient-to-t from-indigo-200 md:h-screen">
+        <nav class="flex items-center justify-between px-10 bg-white shadow-md h-14 fixed top-0 w-full">
+            <div>
+                <h1 class="text-3xl font-semibold text-black cursor-pointer">Kanon</h1>
+            </div>
+            <ul id="navLink" class=" transition hidden lg:w-1/2 lg:visible lg:flex lg:relative lg:bg-transparent md:visible md:relative md:flex md:bg-transparent md:w-3/5 md:items-center absolute top-14 md:top-0 lg:top-0 md:z-10 lg:z-10 -z-50 right-0 h-screen bg-indigo-400 w-1/2 items-center text-center py-6 text-base font-semibold">
+                <li class="py-4 cursor-pointer uppercase hover:text-indigo-200 w-fit mx-auto transition-colors">Home</li>
+                <li class="py-4 cursor-pointer uppercase hover:text-indigo-200 w-fit mx-auto transition-colors">About</li>
+                <li class="py-4 cursor-pointer uppercase hover:text-indigo-200 w-fit mx-auto transition-colors">Blog</li>
+                <li class="py-4 cursor-pointer uppercase hover:text-indigo-200 w-fit mx-auto transition-colors">Project</li>
+                <li class="py-4 cursor-pointer uppercase hover:text-indigo-200 w-fit mx-auto transition-colors">Contact</li>
+            </ul>
+            <div id="burger" class=" lg:hidden md:hidden cursor-pointer">
+                <div class="w-8 h-1 bg-black my-1"></div>
+                <div class="w-8 h-1 bg-black my-1"></div>
+                <div class="w-8 h-1 bg-black my-1"></div>
+            </div>
+
+        </nav>
+        <div class="lg:flex md:flex lg:items-center md:items-center lg:justify-between md:justify-between w-4/5 mx-auto pt-24
+        md:mt-10 md:w-full px-8 md:mx-auto lg:mx-auto lg:full  lg:px-0
+        ">
+            <div class="w-full flex flex-col justify-center items-center text-center">
+                <div class="mb-7 lg:w-1/2">
+                    <p class="text-2xl text-black tracking-wide">
+                        Hello 
+                    </p>
+                    <h1 class="text-4xl font-semibold text-slate-900 mb-4">I'm Kanon</h1>
+                    <button class="py-2.5 px-8 mr-1 bg-indigo-600 rounded-3xl border-none text-slate-200 font-semibold text-md
+                        hover:bg-indigo-700 transition-colors
+                     ">Hire me</button>
+                    <button class="py-2.5 px-7 mr-2 bg-indigo-300 rounded-3xl border-none text-slate-900 font-semibold text-md
+                    hover:bg-indigo-500 transition-colors hover:text-slate-100">About me</button>
+                </div>
+            </div>
+            <div class="h-80 w-4/5 mx-auto flex items-center justify-center bg-indigo-500 rounded-full overflow-hidden 
+            md:w-3/5 lg:1/2 lg:bg-transparent lg:rounded-none
+            ">
+                <img class="h-80 lg:bg-indigo-500 lg:rounded-full" src="img/bg.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="w-full px-10 mt-20 flex flex-col">
+        <div class="flex flex-col justify-center items-center mb-5 text-center">
+            <h1 class="font-semibold relative text-3xl after:content-[''] after:ml-0.5 after:absolute after:-bottom-0.5 after:left-6 mb-4 after:w-20 after:h-0.5 after:bg-indigo-600">About me</h1>
+            <p class="text-slate-500 text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Optio reprehenderit ab mollitia.</p>
+        </div>
+        <div class="w-80 mx-auto bg-indigo-500 rounded-t-full h-96 overflow-hidden bg-center bg-cover mb-10">
+            <img class="w-full h-full bg-cover bg-center object-cover" src="img/bg.png" alt="">
+        </div>
+        <div class="mt-4 mb-5 ">
+            <h1 class="text-center font-semibold text-3xl uppercase mb-4"> Skill</h1>
+             <div class="flex w-full justify-between mb-1">
+                <h4 class="text-md font-semibold text-slate-900">HTML</h4>
+                <p class="font-semibold text-slate-900">100%</p>
+             </div>
+            <div class="w-full h-2 bg-gray-400 rounded-md mb-6">
+                <div class="w-full bg-indigo-500 h-full flex  rounded-md">
+                </div>
+            </div>
+            <div class="flex w-80 justify-between mb-1">
+                <h4 class="text-md font-semibold text-slate-900">CSS</h4>
+                <p class="font-semibold text-slate-900">80%</p>
+             </div>
+            <div class="w-90 h-2 bg-gray-400 rounded-md mb-6">
+                <div class="w-80 bg-indigo-500 h-full flex  rounded-md">
+                </div>
+            </div>
+            <div class="flex w-60 justify-between mb-1">
+                <h4 class="text-md font-semibold text-slate-900">JS</h4>
+                <p class="font-semibold text-slate-900">60%</p>
+             </div>
+            <div class="w-full h-2 bg-gray-400 rounded-md mb-6">
+                <div class="w-60 bg-indigo-500 h-full flex  rounded-md">
+                </div>
+            </div>
+            <div class="flex w-40 justify-between mb-1">
+                <h4 class="text-md font-semibold text-slate-900">REACT JS</h4>
+                <p class="font-semibold text-slate-900">40%</p>
+             </div>
+            <div class="w-full h-2 bg-gray-400 rounded-md mb-6">
+                <div class="w-40 bg-indigo-500 h-full flex  rounded-md">
+                </div>
+            </div>
+            <div class="flex w-80 justify-between mb-1">
+                <h4 class="text-md font-semibold text-slate-900">UI & UX DESIGN</h4>
+                <p class="font-semibold text-slate-900">80%</p>
+             </div>
+            <div class="w-full h-2 bg-gray-400 rounded-md mb-6">
+                <div class="w-80 bg-indigo-500 h-full flex  rounded-md">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
